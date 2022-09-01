@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+}
+
+.second.active{
+    display:flex;
+    overflow: hidden;
+}
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 12%, 8%);
+}
+
+section.main {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 365px;
+    background: radial-gradient(at top, hsl(213, 19%, 20%), hsl(213, 19%, 12%));
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+div.first {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+p {
+    color:hsl(217, 12%, 63%);
+ font-size: 15px;
+}
+
+section.rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+div.first img {
+    display: flex;
+    align-self: center;
+    height: 35%;
+    width: 35%;
+    object-fit: cover;
+}
+
+div.first div {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:hsl(213, 19%, 20%);
+    line-height: 40px;
+    text-align: center;
+     color:hsl(217, 12%, 63%);
+     transition: .3s;
+     cursor: pointer;
+}
+
+
+div.first div:hover {
+    color: white;
+    background-color:hsl(217, 12%, 63%);
+}
+
+
+div.first div:focus {
+    color: white;
+    background-color:hsl(25, 97%, 53%);
+}
+
+
+button {
+    height: 45px;
+    line-height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color:hsl(25, 97%, 53%);
+    transition: .3s;
+    letter-spacing: 3px;
+}
+
+button:hover {
+    color:hsl(25, 97%, 53%);
+    background-color: white;
+}
+
+/* Second div */
+
+
+div.second:nth-child(1) {
+    display: none;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+img.second {
+    display: none;
+    width: 150px;
+    height: 100px;
+}
+
+div.showRating {
+    display: none;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 30px;
+    padding: 0 15px;
+    background-color:hsl(213, 19%, 20%);
+    color:hsl(25, 97%, 53%)
+}
+
+h1.second {
+    display: none;
+}
+
+p.second {
+    display: none;
+    text-align: center;
+}
+
+
+
+.attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
