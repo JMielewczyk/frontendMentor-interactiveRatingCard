@@ -134,11 +134,13 @@ p.second {
 
 
 
-.attribution {
-      font-size: 11px;
-      text-align: center;
-    }
+div.attribution {
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    text-align: center;
+}
 
-    .attribution a {
+    div.attribution a {
       color: hsl(228, 45%, 44%);
     }
