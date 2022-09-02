@@ -1,1 +1,1 @@
-Challenge complete.
+Frontend Mentor challenge - complete.
